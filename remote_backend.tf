@@ -3,11 +3,11 @@
 # It's required to complete the Instruqt labs.
 
 terraform {
-  backend "remote" {
+backend "remote" {
     hostname = "app.terraform.io"
     organization = "joedoss-training"
     workspaces {
       name = "hashicat-aws"
     }
-  }
+ }
 }
